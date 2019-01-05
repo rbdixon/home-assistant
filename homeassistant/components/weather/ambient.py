@@ -1,5 +1,5 @@
 """
-Platform for retrieving meteorological data from Ambient Weather.
+Platform for retrieving personal weather station data from Ambient Weather.
 
 For more details about this platform, please refer to the documentation
 TODO: https://home-assistant.io/components/weather.darksky/
@@ -7,7 +7,6 @@ TODO: https://home-assistant.io/components/weather.darksky/
 from datetime import datetime, timedelta
 import logging
 
-from requests.exceptions import ConnectionError as ConnectError, HTTPError, Timeout
 import voluptuous as vol
 
 from homeassistant.components.weather import (
@@ -21,7 +20,8 @@ from homeassistant.components.weather import (
 )
 from homeassistant.const import CONF_API_KEY, CONF_URL, TEMP_FAHRENHEIT
 import homeassistant.helpers.config_validation as cv
-from homeassistant.util import Throttle
+
+# TODO: from homeassistant.util import Throttle
 
 REQUIREMENTS = ['ambient-api==1.5.2']
 
