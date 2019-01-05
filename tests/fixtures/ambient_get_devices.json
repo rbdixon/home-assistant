@@ -1,0 +1,33 @@
+[
+    {
+        "macAddress": "XX:XX:XX:XX:XX:XX",
+        "lastData": {
+            "dateutc": 1546726740000,
+            "winddir": 88,
+            "windspeedmph": 0,
+            "windgustmph": 0,
+            "maxdailygust": 10.3,
+            "tempf": 52.3,
+            "hourlyrainin": 0,
+            "dailyrainin": 0,
+            "weeklyrainin": 0.01,
+            "monthlyrainin": 0.01,
+            "totalrainin": 0.01,
+            "baromrelin": 29.96,
+            "baromabsin": 28.89,
+            "humidity": 72,
+            "tempinf": 65.5,
+            "humidityin": 51,
+            "uv": 0,
+            "solarradiation": 10.77,
+            "feelsLike": 52.3,
+            "dewPoint": 43.55,
+            "lastRain": "2019-01-04T01:59:00.000Z",
+            "date": "2019-01-05T22:19:00.000Z"
+        },
+        "info": {
+            "name": "Weather",
+            "location": "Home"
+        }
+    }
+]
